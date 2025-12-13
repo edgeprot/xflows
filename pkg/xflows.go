@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/cilium/ebpf"
-	"github.com/properprot/xflows/pkg/config"
-	"github.com/properprot/xflows/pkg/outputs"
-	"github.com/properprot/xflows/pkg/sflow"
-	"github.com/properprot/xflows/pkg/xdp"
+	"github.com/edgeprot/xflows/pkg/config"
+	"github.com/edgeprot/xflows/pkg/outputs"
+	"github.com/edgeprot/xflows/pkg/sflow"
+	"github.com/edgeprot/xflows/pkg/xdp"
 	"github.com/sirupsen/logrus"
 )
 

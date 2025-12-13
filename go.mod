@@ -1,4 +1,4 @@
-module github.com/properprot/xflows
+module github.com/edgeprot/xflows
 
 go 1.24.0
 
