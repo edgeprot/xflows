@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/properprot/xflows/pkg/sflow"
+	"github.com/edgeprot/xflows/pkg/sflow"
 	"github.com/segmentio/kafka-go"
 	"github.com/sirupsen/logrus"
 )

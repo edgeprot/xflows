@@ -1,9 +1,9 @@
 <h1 align="center">XFlows</h1>
 
 <div align="center">
-    <img src="https://img.shields.io/github/go-mod/go-version/properprot/xflows?style=flat-square" alt="Go Version" />
-    <img src="https://goreportcard.com/badge/github.com/properprot/xflows?style=flat-square" alt="Go Report Card" />
-    <img src="https://img.shields.io/github/downloads/properprot/xflows/total?style=flat-square" alt="Downloads" />
+    <img src="https://img.shields.io/github/go-mod/go-version/edgeprot/xflows?style=flat-square" alt="Go Version" />
+    <img src="https://goreportcard.com/badge/github.com/edgeprot/xflows?style=flat-square" alt="Go Report Card" />
+    <img src="https://img.shields.io/github/downloads/edgeprot/xflows/total?style=flat-square" alt="Downloads" />
 </div>
 <br>
 <div align="center"><strong>X(DP)-based Flows</strong></div>
@@ -11,7 +11,7 @@
 
 <div align="center">
     <h3>
-        <a href="https://github.com/properprot/xflows/tree/main/.github/CONTRIBUTING.md">
+        <a href="https://github.com/edgeprot/xflows/tree/main/.github/CONTRIBUTING.md">
             Contributing
         </a>
         <span> | </span>
@@ -19,7 +19,7 @@
             Discord
         </a>
         <span> | </span>
-        <a href="https://github.com/properprot/xflows/tree/main/examples">
+        <a href="https://github.com/edgeprot/xflows/tree/main/examples">
             Examples
         </a>
 </div>

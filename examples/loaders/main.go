@@ -8,7 +8,7 @@ import (
 
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
-	xflows "github.com/properprot/xflows/pkg"
+	xflows "github.com/edgeprot/xflows/pkg"
 	"github.com/sirupsen/logrus"
 )
 

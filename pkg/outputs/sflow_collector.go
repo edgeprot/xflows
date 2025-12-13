@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/properprot/xflows/pkg/sflow"
+	"github.com/edgeprot/xflows/pkg/sflow"
 	"github.com/sirupsen/logrus"
 )
 
