@@ -44,7 +44,7 @@ func NewKafkaOutput(config map[string]interface{}, level logrus.Level) (*KafkaOu
 func (k *KafkaOutput) Send(sample *sflow.SFlowSample) error {
 	data, err := json.Marshal(sample)
 	if err != nil {
-		return nil
+		return err
 	}
 
 	return k.writer.WriteMessages(context.Background(), kafka.Message{Value: data})

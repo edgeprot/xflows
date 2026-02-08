@@ -79,7 +79,7 @@ func (p *Parser) ParseEBPFData(data []byte) (*SFlowSample, error) {
 		PacketSize:  uint32(_totalLen),
 		Raw:         data[:_cutoff],
 
-		TOS:      uint8(_ipPacket[8]),
+		TOS:      uint8(_ipPacket[1]),
 		SrcIP:    net.IP(_ipPacket[12:16]),
 		DstIP:    net.IP(_ipPacket[16:20]),
 		Protocol: uint8(_ipPacket[9]),
