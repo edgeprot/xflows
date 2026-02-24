@@ -51,7 +51,7 @@ func (p *Parser) ParseEBPFData(data []byte) (*SFlowSample, error) {
 		return nil, fmt.Errorf("unsupported IP version: %d", _ipPacket[0]>>4)
 	}
 
-	_totalLen := int(binary.BigEndian.Uint16(_ipPacket[2:4])) + 14 // Ethernet HDR
+	_totalLen := _ipOffset + int(binary.BigEndian.Uint16(_ipPacket[2:4])) // Ethernet HDR
 
 	var srcPort, dstPort uint16
 	if _ipPacket[9] == 6 || _ipPacket[9] == 17 {
